@@ -1,0 +1,14 @@
+.sbc__slide-container{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    
+}
+
+.sbc__slide-container img{
+    width: 800px;
+    height: 400px;
+    
+
+}

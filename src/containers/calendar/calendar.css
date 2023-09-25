@@ -1,0 +1,67 @@
+/* Adjust the font family and size for the entire calendar */
+.rbc-calendar {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Style the header containing the month and year */
+  .rbc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  /* Style the calendar view buttons (day, week, month) */
+  .rbc-btn-group {
+    margin-right: 10px;
+    color: orange;
+  }
+  
+  /* Style the individual day cells in the month view */
+  .rbc-month-view {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+  }
+  
+  /* Style the day cell */
+  .rbc-month-view .rbc-day-bg {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd; /* Add grid lines around each day cell */
+  }
+  
+  /* Style the day number in the month view */
+  .rbc-month-view .rbc-day-bg .rbc-day-bg .rbc-off-range-bg {
+    color: #ccc;
+  }
+  
+  /* Style the event container */
+  .rbc-event {
+    background-color: #007bff;
+    color: #fff;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
+  
+  /* Style the event title */
+  .rbc-event-label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  /* Style the event tooltip */
+  .rbc-tooltip {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-size: 12px;
+  }
+  

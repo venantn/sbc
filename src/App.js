@@ -1,10 +1,11 @@
 import React from 'react';
 import { Routes,BrowserRouter as Router, Route } from 'react-router-dom';
 
-import { Footer, Blog, Possibility, Features, Whatsbc, Header } from './containers';
-import { CTA, Brand, Navbar } from './components';
+import { Footer, Blog, Possibility, Features, Whatsbc, Header, Calendar } from './containers';
+import { CTA, Brand, Navbar, Slide, Dlcalendar } from './components';
 
 import './App.css';
+import MyCalendar from './containers/calendar/Calendar';
 
 
 const App = () => (
@@ -14,12 +15,14 @@ const App = () => (
       <Navbar />
     </div>
     <Routes>
-     <Route  path='/' element={<Header/>}> </Route>
-     <Route  path='/about' element={<Whatsbc/>}> </Route>
+     <Route  path='/' element={<><Header/></>}> </Route>
+     <Route  path='/about' element={<><Whatsbc/><Dlcalendar/></>}> </Route>
      <Route  path='/clients' element={<Features/>}> </Route>
      <Route  path='/team' element={<Blog/>}> </Route>
+     <Route  path='/calendar' element={<MyCalendar/>}> </Route>
      <Route  path='/careers' element={<Possibility/>}> </Route>
     </Routes>
+    <Brand/>
     <Footer />
   </div>
   </Router>

@@ -16,9 +16,10 @@ const Navbar = () => {
         <div className="sbc__navbar-links_container">
           <p> <Link to="/">Home</Link> </p>
           <p> <Link to="/about">About Us</Link> </p>
-          <p> <Link to="/team">The Team</Link> </p>
+          {/*<p> <Link to="/team">The Team</Link> </p>*/}
           <p> <Link to="/clients">Potential Clients</Link> </p>
           <p> <Link to="/careers">Careers</Link> </p>
+          
           
         </div>
       </div>

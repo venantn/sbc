@@ -8,10 +8,29 @@
 .sbc__brand div {
     flex: 1;
     max-width: 150px;
-    min-width: 120px;
-    margin: 1rem;
+    min-width: 100px;
+    
 
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+.social-media-bar {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    
+  }
+  
+  .social-media-bar a {
+    color: #fff;
+    font-size: 45px;
+    margin: 25px 25px;
+    text-decoration: none;
+  }
+  
+  .social-media-bar a:hover {
+    color: #007bff;
+  }
+  

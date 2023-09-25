@@ -36,24 +36,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
     margin-left: 2rem;
 }
 
 .sbc__cta-btn button {
-    background: #000;
+    background: navy;
     color: #fff;
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 18px;
     line-height: 30px;
     padding: 0.5rem 1rem;
-    border-radius: 2rem;
+    border-radius: .5rem;
+    margin: 10px;
 
     border: none;
     outline: none;
     cursor: pointer;
     min-width: 150px;
+}
+.sbc__cta-btn button:hover {
+    color: #007bff;
 }
 
 @media screen and (max-width: 650px) {
