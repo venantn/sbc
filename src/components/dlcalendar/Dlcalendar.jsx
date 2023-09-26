@@ -12,10 +12,10 @@ const downloadPDF = () => {
 const Dlcalendar = () => (
   <div className='sbc__dlc'>
     <div className="sbc__dlc-content">
-    <h3>Check for closings and keep up with our holiday schedule here! <br/>Download our Calendar</h3>
+    <h3>Check for closings and keep up with our holiday schedule here! <br/>Download our Calendar:</h3>
     </div>
     <div className="sbc__dlc-btn">
-    <button onClick={downloadPDF}>Download</button>
+    <button onClick={downloadPDF}>Download Here</button>
     </div>
   </div>
 );

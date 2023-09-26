@@ -34,7 +34,7 @@ const Footer = () => (
     </div>
 
     <div className="sbc__footer-copyright">
-      <p>@2021 SOUTHERN BEHAVIOR CONSULTANTS  All rights reserved.</p>
+      <p>@2023 SOUTHERN BEHAVIOR CONSULTANTS  All rights reserved.</p>
     </div>
   </div>
 );
