@@ -12,7 +12,9 @@
     flex: 1;
     max-width: 180px;
     margin-right: 2rem;
-}
+    
+    }
+
 
 .sbc__features-container__feature-title h1 {
     font-family: var(--font-family);
@@ -31,11 +33,13 @@
     margin-bottom: 0.25rem;
 }
 
+
 .sbc__features-container_feature-text {
     flex: 2;
     max-width: 390px;
     display: flex;
 }
+
 
 .sbc__features-container_feature-text p {
     font-family: var(--font-family);
@@ -59,4 +63,16 @@
     .sbc__features-container__feature {
         margin: 1rem 0;
     }
+}
+.sbc__features-container__feature-title :hover {
+    
+    font-size:larger ;
+    
+}
+
+
+.sbc__features-container_feature-text p:hover {
+    font-size: larger;
+    
+    
 }

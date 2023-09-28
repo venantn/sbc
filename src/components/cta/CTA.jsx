@@ -1,6 +1,6 @@
 import React from 'react';
 import './cta.css';
-const email = 'example@example.com';
+const email = 'southernbehaviorconsultants@gmail.com';
 const phoneNumber = '+17068701331';
 const CTA = () => (
   <div className="sbc__cta">

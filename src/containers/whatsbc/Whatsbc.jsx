@@ -7,8 +7,11 @@ import './whatsbc.css';
 
 const Whatsbc = () => (
   <div className="sbc__whatsbc section__margin" id="wsbc">
+    <div className="sbc__whatsbc-heading">
+      <h1 className="gradient__text">Who We Are</h1>
+    </div>
     <div className="sbc__whatsbc-feature">
-      <Feature title="Who We Are" text="SBC provides Applied Behavior Analysis (ABA) therapy and behavior intervention for clients aged two to eighteen in Gwinnett, Hall, Forsyth, Dawson, Barrow, and nearby Georgia counties. Over 90% of our clients start at our clinic, achieve social skills with peers, and smoothly transition to home and community settings. We are dedicated to fostering growth, ensuring personalized care, and creating a brighter future for every child we serve." />
+      <Feature title= "ABA Done Right" text="SBC provides Applied Behavior Analysis (ABA) therapy and behavior intervention for clients aged two to eighteen in Gwinnett, Hall, Forsyth, Dawson, Barrow, and nearby Georgia counties. Over 90% of our clients start at our clinic, achieve social skills with peers, and smoothly transition to home and community settings. We are dedicated to fostering growth, ensuring personalized care, and creating a brighter future for every child we serve." />
     </div>
 
     <Slide/>

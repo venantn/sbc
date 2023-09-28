@@ -35,8 +35,17 @@
     font-size: 62px;
     line-height: 75px;
     letter-spacing: -0.04em;
+    
 }
-
+.sbc__header-content h2 {
+    
+    font-family: var(--font-family);
+    font-weight: 600; 
+    font-size: 35px; 
+    line-height: 55px; 
+    letter-spacing: -0.02em; 
+ 
+}
 .sbc__header-content p {
     font-family: var(--font-family);
     font-weight: 400;

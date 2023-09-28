@@ -1,7 +1,8 @@
 import React from 'react';
 import './dlcalendar.css';
 
-const pdfFileName = 'sample.pdf'; 
+
+const pdfFileName = 'sbc23calendar.pdf'; 
 const downloadPDF = () => {
     const link = document.createElement('a');
     link.href = process.env.PUBLIC_URL + '/' + pdfFileName;
